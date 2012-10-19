@@ -1,0 +1,4 @@
+*.jar.pack.gz
+*.jar
+/classes
+.DS_Store

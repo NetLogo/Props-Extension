@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Extension-Name: props
+Class-Manager: org.nlogo.extensions.props.PropsExtension
+NetLogo-Extension-API-Version: 5.0
