@@ -11,9 +11,9 @@ class PropsExtension extends DefaultClassManager {
 
 object Get extends DefaultReporter {
   override def getAgentClassString = "O---"
-  override def getSyntax = reporterSyntax(Array(StringType), StringType | NumberType)
+  override def getSyntax = reporterSyntax(Array(StringType), StringType | BooleanType)
   override def report(args: Array[Argument], context: Context) : AnyRef = {
-    Option(System.getProperty(args(0).getString)) getOrElse Double.box(0)
+    Option(System.getProperty(args(0).getString)) getOrElse Boolean.box(false)
   }
 }
 
