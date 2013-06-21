@@ -4,12 +4,7 @@ This extension allows you to read and write Java system properties from within N
 
 ## Building
 
-Use the NETLOGO environment variable to tell the Makefile which NetLogoLite.jar to compile against.  For example:
-
-    NETLOGO=/Applications/NetLogo\\\ 5.0
-    make
-
-If compilation succeeds, `props.jar` will be created.
+Run `sbt package`.  If compilation succeeds, `props.jar` will be created.
 
 ## Using
 
