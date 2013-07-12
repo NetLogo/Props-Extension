@@ -1,5 +1,4 @@
-/project
-/target
+target/
 *.jar.pack.gz
 *.jar
 .DS_Store
